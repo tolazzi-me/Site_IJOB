@@ -1,0 +1,148 @@
+<!doctype html>
+  <head>
+    <!-- Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+    <link rel="icon" href="Logo46px.png" type="image/x-icon">
+    <title>iJob</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+
+  <body>
+    <div class="container">
+
+
+      <header>
+        <div class="container">
+          <div id="logomenu">
+            <img id="logomenu" src="logomenu.PNG">
+          </div> 
+          <div id="menu">
+            <a href="#home">Home</a>
+            <a href="#equipe">Equipe</a>
+            <a href="#programacoes_futuras">Programações futuras</a>
+            <a href="#notas_att">Notas de atualizações</a>
+            <a href="#suporte">Suporte</a>
+          </div>
+        </div>
+      </header>
+
+      <div id="home">
+        <div id="left01">
+        </div>
+        <div id="right01">
+          <a href="https://youtu.be/y1GlGNLSJl0"><button type="button" id="saibamais_botao">SAIBA MAIS</button></a>
+          <button type="button" id="appstore_botao" onclick="alert('O iJob ainda não foi lançado nesta plataforma!')">AppStore</button>
+          <button type="button" id="playstore_botao" onclick="alert('O iJob ainda não foi lançado nesta plataforma!')">PlayStore</button>
+        </div>
+      </div>
+
+
+      <div id="equipe">
+        <h1>NOSSA EQUIPE</h1>
+        Nossa equipe é constituida por alunos do Centro Universitário Assis Gurgacz 
+        <br>
+        no 6º Período de Engenharia de Software.
+        <div>
+          <img src="quemsomos1.png">
+        </div>
+      </div>
+
+
+      <div id="programacoes_futuras">
+        <h1>Programações Futuras</h1>
+        <button type="button" id="q12021" onclick="img1();">Q1 2021</button>
+        <button type="button" id="q22021" onclick="img2();">Q2 2021</button>
+        <br>
+        <img src="progam_futuras.PNG" alt="img alterada" id="trocaImg">
+      </div>
+
+
+      <div id="notas_att">
+        <h1 style="text-align: center;">Notas de Atualizações</h1>
+        <div id="left_att">
+            <div id="att1">
+              <h2 style="padding: 20px; text-align: center;">Atualização 1.1</h2>
+              <ul style="font-size: 1.3rem;">
+                <li>Corrigido tela de perfil</li>
+                <li>Atualização tela de login</li>  
+              </ul>
+            </div>
+        </div>
+        <div id="right_att">
+            <div id="att2">
+              <h2 style="padding: 20px; text-align: center;">Atualização 1.2</h2>
+              <ul style="font-size: 1.3rem;">
+                <li>Nova função no sistema</li>
+                <li>Sistema de segurança aprimorado</li>
+                <li>Novo captcha ao logar no sistema</li>
+                <li>Confirmação de duas etapas aprimorado</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+
+
+      <div id="suporte">
+        <h1 id="titulo-sup">Suporte</h1>
+        <div id="sup_esquerda">
+          <img src="pessoas.png">
+        </div>
+        <div id="sup_direita">
+          <h3 style="padding: 60px 0px 10px 0px;">Esclareça suas duvidas aqui</h3>
+
+          <form id="form_sup">
+            <div>
+              <div>
+                <input id="form_nome" type="text" name="nome" placeholder="Nome">
+              </div>
+              <br>
+              <div>
+                <input id="form_email" type="email" name="email" placeholder="Email">
+              </div>
+              <br>
+              <div>
+                <textarea id="form_mensagem" rows="5" name="mensagem" placeholder="Mensagem"></textarea>
+              </div>
+              <br>
+              <div style="padding: 0px 50px 0px 0px;">
+                <button id="form_enviar" type="submit" value="Enviar">Enviar</button>
+              </div>
+            </div>
+          </form>  
+        </div>
+      </div>
+
+
+      <div id="logoFinal">
+        <center>
+        <img src="logoEscrito.png" style="padding-top: 80px; border-image: center;">
+        </center>
+      </div>
+
+
+      <!--Ondas Rodapé-->
+      <section>
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+      </section>
+
+
+      <footer>
+        IJOB 2021
+      </footer>
+
+
+    </div>
+  </body>
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <!-- JavaScript -->
+  <script src="javascript.js"></script>
+</html>
